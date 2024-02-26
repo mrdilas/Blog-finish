@@ -1231,3 +1231,10 @@
 127.0.0.1 - - [26/Feb/2024:17:22:42 +0300] "GET /admin/category/index HTTP/1.1" 200 5473
 127.0.0.1 - - [26/Feb/2024:17:22:52 +0300] "GET /admin/article/index HTTP/1.1" 200 5989
 127.0.0.1 - - [26/Feb/2024:17:22:54 +0300] "GET /admin/category/index HTTP/1.1" 200 5473
+127.0.0.1 - - [26/Feb/2024:20:33:26 +0300] "GET /phpmyadmin/index.php?route=/database/structure&db=site_blog HTTP/1.1" 200 17199
+127.0.0.1 - - [26/Feb/2024:20:33:31 +0300] "GET /phpmyadmin/js/messages.php?l=ru&v=5.2.1 HTTP/1.1" 200 12854
+127.0.0.1 - - [26/Feb/2024:20:33:31 +0300] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1627
+127.0.0.1 - - [26/Feb/2024:20:33:31 +0300] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2637
+127.0.0.1 - - [26/Feb/2024:20:33:31 +0300] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1720
+127.0.0.1 - - [26/Feb/2024:20:33:32 +0300] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2444
+127.0.0.1 - - [26/Feb/2024:20:33:32 +0300] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1618
