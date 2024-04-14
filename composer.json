@@ -14,7 +14,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "kartik-v/yii2-widget-select2": "dev-master",
+        "kartik-v/yii2-widget-select2": "^2.2@dev",
         "yiisoft/yii2-bootstrap5": "@dev",
         "php": ">=7.4.0",
         "yiisoft/yii2": "~2.0.45",

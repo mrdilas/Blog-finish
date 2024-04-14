@@ -4,11 +4,10 @@ services:
     image: nginx:latest
     ports:
         - "80:80"
-        #- "443:443"
     volumes:
         - ./nginx/conf.d:/etc/nginx/conf.d
         - ./nginx/logs:/var/log/nginx
-        - ./:/var/www/www-blog
+        - ./:/var/www/blog
     links:
         - php
     depends_on:
@@ -16,14 +15,12 @@ services:
   php:
     build: ./php
     volumes:
-        - ~/.composer-docker/cache:/root/.composer/cache:delegated
         - ./:/var/www/blog
   mysql:
       image: mysql:8
       restart: always
       ports:
-          - "3386:3386"
-          #- "3306:3306"
+          - "3306:3306"
       environment:
             MYSQL_ROOT_PASSWORD: 1234
             MYSQL_DATABASE: awesome
